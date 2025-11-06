@@ -249,3 +249,14 @@ input:checked + .slider:before {
 input:checked + .slider {
   background-color: #FFA100;
 }
+
+.no-results {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  color: #f80f0f;
+  font-size: 1.4rem;
+  text-align: center;
+  height: 200px;  
+  margin: 0;         
+}
