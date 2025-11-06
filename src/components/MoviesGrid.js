@@ -53,7 +53,7 @@ export default function MoviesGrid() {
             <MovieCard movie={movie} key={movie.id} />
           ))
         ) : (
-          <p className="no-results">No results found!</p>
+          <p className="no-results">No Results Found!</p>
         )}
       </div>
     </div>
