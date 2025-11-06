@@ -21,22 +21,6 @@ export default function MoviesGrid() {
     movie.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  //   return (
-  //     <div>
-  //       <input
-  //         type="text"
-  //         className="search-input"
-  //         placeholder="Search Movies..."
-  //         value={searchTerm}
-  //         onChange={handleSearchChange}
-  //       />
-  //       <div className="movies-grid">
-  //         {filteredMovies.map((movie) => (
-  //           <MovieCard movie={movie} key={movie.id} />
-  //         ))}
-  //       </div>
-  //     </div>
-  //   );
   return (
     <div>
       <input
